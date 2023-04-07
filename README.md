@@ -1,5 +1,7 @@
 # countbattle
-In this repo are getting two solutions of the problem stated in **[this video](https://youtu.be/U6I-Kwj-AvY)** from the Youtuber **[code_report](https://www.youtube.com/@code_report)** compared. Both are in Rust and you can compare them using the hyperfine command.
+In this repo are getting two solutions of the problem stated in **[this video](https://youtu.be/U6I-Kwj-AvY)** from the Youtuber **[code_report](https://www.youtube.com/@code_report)** compared. Both are in Rust and you can compare them using the hyperfine command. 
+
+Which will be faster?!?!
 
 ## Dependencies
 Only hyperfine hast to be installed using cargo, the other dependencies are stated in the Cargo.toml:
