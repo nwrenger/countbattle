@@ -8,4 +8,4 @@ build: install
 	clear
 
 test-all: build
-	./test-all.sh 69 50000
+	./test-all.sh 69 5000000
