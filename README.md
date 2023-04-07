@@ -17,14 +17,14 @@ cargo build -r
 ```
 For my Rust solution:
 ```
-hyperfine --warmup 6 -- "target/release/vectest nils -s 69 -l 500000"
+hyperfine --warmup 6 -- "target/release/countbattle nils -s 69 -l 500000"
 ```
 For the Rust solution from code_report's video:
 ```
-hyperfine --warmup 6 -- "target/release/vectest internet -s 69 -l 500000"
+hyperfine --warmup 6 -- "target/release/countbattle internet -s 69 -l 500000"
 ```
-For the generated list:
+For the generated list(print!):
 ```
-hyperfine --warmup 6 --show-output -- "target/release/vectest uncounted -s 69 -l 500000"
+hyperfine --warmup 6 --show-output -- "target/release/countbattle uncounted -s 69 -l 500000"
 ```
 with -s you can set the seed for the generated list and with -l you can specify the length of the list.
