@@ -31,7 +31,7 @@ make test-all
 The shell script only executes the test cases. The first argument to the script is the seed, the second the length of the
 test array 
 ```
-./test-all.sh 69 50000
+./test-all.sh 69 5000000
 ```
 For the generated list(print!):
 ```
