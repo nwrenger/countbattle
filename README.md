@@ -4,7 +4,7 @@ In this repo are getting two solutions of the problem stated in **[this video](h
 Which will be faster?!?!
 
 ## Dependencies
-Only hyperfine hast to be installed using cargo, the other dependencies are stated in the Cargo.toml:
+Only hyperfine has to be installed using cargo, the other dependencies are stated in the Cargo.toml:
 ```
 cargo install hyperfine
 ```
