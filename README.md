@@ -8,6 +8,7 @@ Only hyperfine has to be installed using cargo, the other dependencies are state
 ```
 cargo install hyperfine
 ```
+Alternatively hyperfine can also be installed with a package manager e.g. `sudo pacman -Syu hyperfine`.
 
 ## Usage
 
@@ -23,8 +24,19 @@ For the Rust solution from code_report's video:
 ```
 hyperfine --warmup 6 -- "target/release/countbattle internet -s 69 -l 500000"
 ```
+The Makefile should execute all the above commands (if rust is installed)
+```
+make test-all
+```
+The shell script only executes the test cases. The first argument to the script is the seed, the second the length of the
+test array 
+```
+./test-all.sh 69 50000
+```
 For the generated list(print!):
 ```
 hyperfine --warmup 6 --show-output -- "target/release/countbattle uncounted -s 69 -l 500000"
 ```
 with -s you can set the seed for the generated list and with -l you can specify the length of the list.
+
+And who wins?!?! Compare them yourself!
